@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		898A78A7D4DC0F6CAC56E5E0 /* Pods_EpitechEisenhower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFCDAEF97CC52F71256BFE5 /* Pods_EpitechEisenhower.framework */; };
 		9A5623D51F7940280009CD23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5623D41F7940280009CD23 /* AppDelegate.swift */; };
 		9A5623D71F7940280009CD23 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5623D61F7940280009CD23 /* LoginViewController.swift */; };
 		9A5623DA1F7940280009CD23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5623D81F7940280009CD23 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13AB3889FA8511C8F21B5290 /* Pods-EpitechEisenhower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpitechEisenhower.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpitechEisenhower/Pods-EpitechEisenhower.release.xcconfig"; sourceTree = "<group>"; };
 		9A5623D11F7940280009CD23 /* EpitechEisenhower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpitechEisenhower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5623D41F7940280009CD23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A5623D61F7940280009CD23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		9A5623DB1F7940280009CD23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A5623DE1F7940280009CD23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A5623E01F7940280009CD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04500DBA9066F2B70458394 /* Pods-EpitechEisenhower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpitechEisenhower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpitechEisenhower/Pods-EpitechEisenhower.debug.xcconfig"; sourceTree = "<group>"; };
+		DAFCDAEF97CC52F71256BFE5 /* Pods_EpitechEisenhower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpitechEisenhower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898A78A7D4DC0F6CAC56E5E0 /* Pods_EpitechEisenhower.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		056C24FCA6193AB81B8BAEEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCDAEF97CC52F71256BFE5 /* Pods_EpitechEisenhower.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A5623C81F7940280009CD23 = {
 			isa = PBXGroup;
 			children = (
 				9A5623D31F7940280009CD23 /* EpitechEisenhower */,
 				9A5623D21F7940280009CD23 /* Products */,
+				A855B16752C8C51DDF8E616D /* Pods */,
+				056C24FCA6193AB81B8BAEEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = EpitechEisenhower;
 			sourceTree = "<group>";
 		};
+		A855B16752C8C51DDF8E616D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C04500DBA9066F2B70458394 /* Pods-EpitechEisenhower.debug.xcconfig */,
+				13AB3889FA8511C8F21B5290 /* Pods-EpitechEisenhower.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A5623E31F7940280009CD23 /* Build configuration list for PBXNativeTarget "EpitechEisenhower" */;
 			buildPhases = (
+				07DDFF33ED4C19737D53AC79 /* [CP] Check Pods Manifest.lock */,
 				9A5623CD1F7940280009CD23 /* Sources */,
 				9A5623CE1F7940280009CD23 /* Frameworks */,
 				9A5623CF1F7940280009CD23 /* Resources */,
+				B0CC630D0459B0907D9EC0C7 /* [CP] Embed Pods Frameworks */,
+				F2E8065B34823839D86EB1BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07DDFF33ED4C19737D53AC79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EpitechEisenhower-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0CC630D0459B0907D9EC0C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EpitechEisenhower/Pods-EpitechEisenhower-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpitechEisenhower/Pods-EpitechEisenhower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2E8065B34823839D86EB1BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpitechEisenhower/Pods-EpitechEisenhower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A5623CD1F7940280009CD23 /* Sources */ = {
@@ -272,9 +353,11 @@
 		};
 		9A5623E41F7940280009CD23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04500DBA9066F2B70458394 /* Pods-EpitechEisenhower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UB78HX6L7B;
 				INFOPLIST_FILE = EpitechEisenhower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.epitech.EpitechEisenhower;
@@ -286,9 +369,11 @@
 		};
 		9A5623E51F7940280009CD23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13AB3889FA8511C8F21B5290 /* Pods-EpitechEisenhower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UB78HX6L7B;
 				INFOPLIST_FILE = EpitechEisenhower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.epitech.EpitechEisenhower;
