@@ -10,11 +10,18 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var fbButton: UIButton!
+    @IBOutlet weak var gPlusButton: UIButton!
+    @IBOutlet weak var signInButton: UIButton!
     @IBOutlet weak var connectButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Login"
-        connectButton.layer.cornerRadius = 5
+        connectButton.layer.cornerRadius = Values.radius.small
+        signInButton.layer.cornerRadius = Values.radius.small
+        gPlusButton.layer.cornerRadius = Values.radius.small
+        fbButton.layer.cornerRadius = Values.radius.small
+    
         // Do any additional setup after loading the view, typically from a nib.
     }
 
