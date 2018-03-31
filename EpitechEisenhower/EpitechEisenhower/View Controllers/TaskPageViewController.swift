@@ -30,7 +30,17 @@ class taskPageViewController: UICollectionViewController {
     }
     
     @objc func goToProfile() {
-        print("Profile Tap")
+        performSegue(withIdentifier: "profileSegue", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "detailSegue" {
+            let nextScene =  segue.destination as! taskDetailsEdit
+            if let indexPath = self.collection.indexPath(for: sender as! collectionCellView) {
+                print(indexPath.row)
+                nextScene.ta = self.allTasks[indexPath.row]
+            }
+        }
     }
     
     //UICollectionViewDelegateFlowLayout methods
@@ -47,6 +57,10 @@ class taskPageViewController: UICollectionViewController {
     
     
     //UICollectionViewDatasource methods
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
+
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         
         return 1
