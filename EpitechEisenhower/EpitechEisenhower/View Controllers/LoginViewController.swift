@@ -16,7 +16,6 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var connectButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Login"
         connectButton.layer.cornerRadius = Values.radius.small
         signInButton.layer.cornerRadius = Values.radius.small
         gPlusButton.layer.cornerRadius = Values.radius.small
@@ -33,6 +32,23 @@ class LoginViewController: UIViewController {
     @IBAction func connect(_ sender: Any) {
         performSegue(withIdentifier: "showHome", sender: nil)
     }
-    
 }
+
+extension UIViewController
+{
+    func hideKeyboard()
+    {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(
+            target: self,
+            action: #selector(UIViewController.dismissKeyboard))
+        
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard()
+    {
+        view.endEditing(true)
+    }
+}
+
 

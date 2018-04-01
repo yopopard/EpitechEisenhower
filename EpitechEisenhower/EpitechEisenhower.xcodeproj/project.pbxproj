@@ -7,29 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		418C1C752051493500E8A5ED /* taskPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C1C742051493500E8A5ED /* taskPageViewController.swift */; };
-		418C1C772051540000E8A5ED /* collectionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C1C762051540000E8A5ED /* collectionCellView.swift */; };
-		418C1C792052C3A100E8A5ED /* values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C1C782052C3A100E8A5ED /* values.swift */; };
-		418C1C7B20533AF600E8A5ED /* taskClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C1C7A20533AF600E8A5ED /* taskClass.swift */; };
+		418C1C752051493500E8A5ED /* TaskPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C1C742051493500E8A5ED /* TaskPageViewController.swift */; };
+		418C1C772051540000E8A5ED /* CollectionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C1C762051540000E8A5ED /* CollectionCellView.swift */; };
+		418C1C792052C3A100E8A5ED /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C1C782052C3A100E8A5ED /* Values.swift */; };
+		418C1C7B20533AF600E8A5ED /* TaskClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C1C7A20533AF600E8A5ED /* TaskClass.swift */; };
+		41996B03206524950014C4BF /* TaskDetailsEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41996B02206524950014C4BF /* TaskDetailsEditViewController.swift */; };
+		41996B05206544150014C4BF /* ProfileClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41996B04206544150014C4BF /* ProfileClass.swift */; };
+		41996B0720657D2E0014C4BF /* ProfileCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41996B0620657D2E0014C4BF /* ProfileCollectionCell.swift */; };
+		41996B0B20657EF00014C4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41996B0A20657EEF0014C4BF /* Assets.xcassets */; };
+		41996B112067FAA40014C4BF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41996B102067FAA40014C4BF /* ProfileViewController.swift */; };
+		41996B1320680ED10014C4BF /* ModalSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41996B1220680ED10014C4BF /* ModalSearchViewController.swift */; };
+		41996B15206F9F2D0014C4BF /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41996B14206F9F2D0014C4BF /* SearchTableViewCell.swift */; };
 		898A78A7D4DC0F6CAC56E5E0 /* Pods_EpitechEisenhower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFCDAEF97CC52F71256BFE5 /* Pods_EpitechEisenhower.framework */; };
 		9A5623D51F7940280009CD23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5623D41F7940280009CD23 /* AppDelegate.swift */; };
 		9A5623D71F7940280009CD23 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5623D61F7940280009CD23 /* LoginViewController.swift */; };
 		9A5623DA1F7940280009CD23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5623D81F7940280009CD23 /* Main.storyboard */; };
-		9A5623DC1F7940280009CD23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A5623DB1F7940280009CD23 /* Assets.xcassets */; };
 		9A5623DF1F7940280009CD23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5623DD1F7940280009CD23 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13AB3889FA8511C8F21B5290 /* Pods-EpitechEisenhower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpitechEisenhower.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpitechEisenhower/Pods-EpitechEisenhower.release.xcconfig"; sourceTree = "<group>"; };
-		418C1C742051493500E8A5ED /* taskPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskPageViewController.swift; sourceTree = "<group>"; };
-		418C1C762051540000E8A5ED /* collectionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionCellView.swift; sourceTree = "<group>"; };
-		418C1C782052C3A100E8A5ED /* values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = values.swift; sourceTree = "<group>"; };
-		418C1C7A20533AF600E8A5ED /* taskClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskClass.swift; sourceTree = "<group>"; };
+		418C1C742051493500E8A5ED /* TaskPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPageViewController.swift; sourceTree = "<group>"; };
+		418C1C762051540000E8A5ED /* CollectionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellView.swift; sourceTree = "<group>"; };
+		418C1C782052C3A100E8A5ED /* Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
+		418C1C7A20533AF600E8A5ED /* TaskClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskClass.swift; sourceTree = "<group>"; };
+		41996B02206524950014C4BF /* TaskDetailsEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsEditViewController.swift; sourceTree = "<group>"; };
+		41996B04206544150014C4BF /* ProfileClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileClass.swift; sourceTree = "<group>"; };
+		41996B0620657D2E0014C4BF /* ProfileCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionCell.swift; sourceTree = "<group>"; };
+		41996B0A20657EEF0014C4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41996B102067FAA40014C4BF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		41996B1220680ED10014C4BF /* ModalSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSearchViewController.swift; sourceTree = "<group>"; };
+		41996B14206F9F2D0014C4BF /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		9A5623D11F7940280009CD23 /* EpitechEisenhower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpitechEisenhower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5623D41F7940280009CD23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A5623D61F7940280009CD23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9A5623D91F7940280009CD23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A5623DB1F7940280009CD23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A5623DE1F7940280009CD23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A5623E01F7940280009CD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C04500DBA9066F2B70458394 /* Pods-EpitechEisenhower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpitechEisenhower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpitechEisenhower/Pods-EpitechEisenhower.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,6 +68,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		41996B0C2067F92D0014C4BF /* Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				418C1C7A20533AF600E8A5ED /* TaskClass.swift */,
+				41996B04206544150014C4BF /* ProfileClass.swift */,
+			);
+			path = "Data Classes";
+			sourceTree = "<group>";
+		};
+		41996B0D2067F9620014C4BF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A5623D61F7940280009CD23 /* LoginViewController.swift */,
+				418C1C742051493500E8A5ED /* TaskPageViewController.swift */,
+				41996B02206524950014C4BF /* TaskDetailsEditViewController.swift */,
+				41996B102067FAA40014C4BF /* ProfileViewController.swift */,
+				41996B1220680ED10014C4BF /* ModalSearchViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		41996B0E2067F9860014C4BF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				418C1C762051540000E8A5ED /* CollectionCellView.swift */,
+				41996B0620657D2E0014C4BF /* ProfileCollectionCell.swift */,
+				41996B14206F9F2D0014C4BF /* SearchTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		41996B0F2067F9B80014C4BF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9A5623D81F7940280009CD23 /* Main.storyboard */,
+				9A5623DD1F7940280009CD23 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		9A5623C81F7940280009CD23 = {
 			isa = PBXGroup;
 			children = (
@@ -77,16 +129,14 @@
 		9A5623D31F7940280009CD23 /* EpitechEisenhower */ = {
 			isa = PBXGroup;
 			children = (
+				41996B0D2067F9620014C4BF /* View Controllers */,
+				41996B0F2067F9B80014C4BF /* Storyboards */,
+				41996B0C2067F92D0014C4BF /* Data Classes */,
+				41996B0E2067F9860014C4BF /* Cells */,
+				418C1C782052C3A100E8A5ED /* Values.swift */,
 				9A5623D41F7940280009CD23 /* AppDelegate.swift */,
-				9A5623D61F7940280009CD23 /* LoginViewController.swift */,
-				9A5623D81F7940280009CD23 /* Main.storyboard */,
-				9A5623DB1F7940280009CD23 /* Assets.xcassets */,
-				9A5623DD1F7940280009CD23 /* LaunchScreen.storyboard */,
 				9A5623E01F7940280009CD23 /* Info.plist */,
-				418C1C742051493500E8A5ED /* taskPageViewController.swift */,
-				418C1C762051540000E8A5ED /* collectionCellView.swift */,
-				418C1C782052C3A100E8A5ED /* values.swift */,
-				418C1C7A20533AF600E8A5ED /* taskClass.swift */,
+				41996B0A20657EEF0014C4BF /* Assets.xcassets */,
 			);
 			path = EpitechEisenhower;
 			sourceTree = "<group>";
@@ -163,7 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A5623DF1F7940280009CD23 /* LaunchScreen.storyboard in Resources */,
-				9A5623DC1F7940280009CD23 /* Assets.xcassets in Resources */,
+				41996B0B20657EF00014C4BF /* Assets.xcassets in Resources */,
 				9A5623DA1F7940280009CD23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,11 +279,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41996B03206524950014C4BF /* TaskDetailsEditViewController.swift in Sources */,
 				9A5623D71F7940280009CD23 /* LoginViewController.swift in Sources */,
-				418C1C7B20533AF600E8A5ED /* taskClass.swift in Sources */,
-				418C1C752051493500E8A5ED /* taskPageViewController.swift in Sources */,
-				418C1C772051540000E8A5ED /* collectionCellView.swift in Sources */,
-				418C1C792052C3A100E8A5ED /* values.swift in Sources */,
+				41996B112067FAA40014C4BF /* ProfileViewController.swift in Sources */,
+				41996B0720657D2E0014C4BF /* ProfileCollectionCell.swift in Sources */,
+				418C1C7B20533AF600E8A5ED /* TaskClass.swift in Sources */,
+				418C1C752051493500E8A5ED /* TaskPageViewController.swift in Sources */,
+				41996B05206544150014C4BF /* ProfileClass.swift in Sources */,
+				418C1C772051540000E8A5ED /* CollectionCellView.swift in Sources */,
+				418C1C792052C3A100E8A5ED /* Values.swift in Sources */,
+				41996B15206F9F2D0014C4BF /* SearchTableViewCell.swift in Sources */,
+				41996B1320680ED10014C4BF /* ModalSearchViewController.swift in Sources */,
 				9A5623D51F7940280009CD23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,12 +428,14 @@
 			baseConfigurationReference = C04500DBA9066F2B70458394 /* Pods-EpitechEisenhower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UB78HX6L7B;
+				DEVELOPMENT_TEAM = WF2CA9EAJ5;
 				INFOPLIST_FILE = EpitechEisenhower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.epitech.EpitechEisenhower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,12 +446,14 @@
 			baseConfigurationReference = 13AB3889FA8511C8F21B5290 /* Pods-EpitechEisenhower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UB78HX6L7B;
+				DEVELOPMENT_TEAM = WF2CA9EAJ5;
 				INFOPLIST_FILE = EpitechEisenhower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.epitech.EpitechEisenhower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

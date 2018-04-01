@@ -19,8 +19,11 @@ struct Values {
     struct radius{
         static let small = CGFloat(5.0)
     }
+    
+    struct strings {
+        static let defaultDesc = "Quick description with details and specs Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique nisl ornare velit fermentum lobortis. Pellentesque eget sagittis nulla. Suspendisse congue efficitur mollis. Nunc ut ultrices felis. Morbi lorem turpis, gravida in ultrices non, eleifend et felis. Suspendisse non nunc"
+    }
 }
-
 
 extension UIColor {
     
