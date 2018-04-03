@@ -77,6 +77,7 @@
 		411BEE3D20727124008FBBBD /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				41996B1820710B050014C4BF /* FirebaseManager.swift */,
 				411BEE3E20727146008FBBBD /* Extensions.swift */,
 				418C1C782052C3A100E8A5ED /* Values.swift */,
 			);
@@ -153,7 +154,6 @@
 				41FAF6CA2071ADDB0083C79A /* GoogleService-Info.plist */,
 				9A5623E01F7940280009CD23 /* Info.plist */,
 				41996B0A20657EEF0014C4BF /* Assets.xcassets */,
-				41996B1820710B050014C4BF /* FirebaseManager.swift */,
 			);
 			path = EpitechEisenhower;
 			sourceTree = "<group>";

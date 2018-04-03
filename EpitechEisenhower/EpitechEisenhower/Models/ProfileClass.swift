@@ -128,6 +128,41 @@ class profile {
         }
     }
     
+    func taskSorter() {
+        var urgimp = [task]()
+        var urg = [task]()
+        var imp = [task]()
+        var none = [task]()
+
+        if self.tasks != nil && self.tasks.count > 0
+        {
+            for t in self.tasks {
+                if (t.imp) {
+                    if (t.urg) {
+                        urgimp.append(t)
+                    }
+                    else {
+                        imp.append(t)
+                    }
+                }
+                else {
+                    if (t.urg) {
+                        urg.append(t)
+                    }
+                    else {
+                        none.append(t)
+                    }
+                }
+            }
+            
+            self.tasks.removeAll()
+            for t in urgimp { self.tasks.append(t) }
+            for t in urg { self.tasks.append(t) }
+            for t in imp { self.tasks.append(t) }
+            for t in none { self.tasks.append(t) }
+        }
+    }
+    
     static func getProfileFrom(uid: String, completion: @escaping (()->())){
         let userRef = Database.database().reference().child(Values.firebaseObjson.USERS).child(uid)
         var retProfile: profile?
@@ -152,6 +187,7 @@ class profile {
                 }
                 fetchedData.user = retProfile
                 if (fetchedData.user != nil ) {
+                    fetchedData.user?.taskSorter()
                     completion()
                 }
                 else {

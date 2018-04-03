@@ -13,10 +13,15 @@ class taskPageViewController: UICollectionViewController {
     
     @IBOutlet var collection: UICollectionView!
     var profileButton: UIButton!
+    var activityView = UIActivityIndicatorView ()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.addSubview(self.activityView)
+        self.activityView.frame = self.view.frame
+        self.activityView.startAnimating()
         profile.getProfileFrom(uid: (Auth.auth().currentUser?.uid)!) {
+            self.activityView.stopAnimating()
             self.collection.reloadData()
         }
         let profileImage = UIImage(named: "ProfileIcon")
