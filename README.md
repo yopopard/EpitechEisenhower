@@ -21,6 +21,7 @@ This is a repo for the app Epitech Eisenhower project. An iOS app based on Eisen
 *Simple modification does'nt need a re-auth, but if the password or the sign-in email is changed, the user is logged out and have to sign back in*
 
 ![Alt Text](https://i.imgur.com/KzpkOiB.gif)
+<img src="https://i.imgur.com/KzpkOiB.gif" width="100" height="100" />
 
 ## Task creation (user assignment/research ... etc)
 
@@ -28,6 +29,7 @@ This is a repo for the app Epitech Eisenhower project. An iOS app based on Eisen
 > The user can only see on his board, the tasks he's assigned on
 
 ![Alt Text](https://i.imgur.com/ad0JvXwt.gif)
+<img src="https://i.imgur.com/ad0JvXwt.gif" width="100" height="100" />
 
 ## Task overview, modification and removal
 
