@@ -20,13 +20,14 @@ This is a repo for the app Epitech Eisenhower project. An iOS app based on Eisen
 > Changed login email and some fields of the user
 *Simple modification does'nt need a re-auth, but if the password or the sign-in email is changed, the user is logged out and have to sign back in*
 
-![Alt Text](https://i.imgur.com/9v8wC6p.gif)
+![Alt Text](https://i.imgur.com/KzpkOiB.gif)
 
 ## Task creation (user assignment/research ... etc)
 
 > The user can create task and not assign himself on it (but can assign others)
+> The user can only see on his board, the tasks he's assigned on
 
-![Alt Text](https://i.imgur.com/lt25yjV.gif)
+![Alt Text](https://i.imgur.com/9kgbxEe.gif)
 
 ## Task overview, modification and removal
 
