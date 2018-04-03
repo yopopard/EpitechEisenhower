@@ -7,7 +7,7 @@ If you have any question you can send me an email anytime at vincent.augrain@epi
 I'll answer as fast as possible.
 
 
-***Please make a pod install / pod update to make it work (We accidentaly left the pods and xcworkspace)***
+***Please make a pod install / pod update to make it work (We accidentaly left the pods and xcworkspace in the project)***
 
 ## Sign Up
 
