@@ -3,8 +3,8 @@
 
 This is a repo for the app Epitech Eisenhower project. An iOS app based on Eisenhower Task Matrix (https://fr.wikipedia.org/wiki/Matrice_d%27Eisenhower).
 
-If you have any question you can send me an email anytime at vincent.augrain@epitech.eu
-I'll answer as fast as possible
+If you have any question you can send me an email anytime at vincent.augrain@epitech.eu.
+I'll answer as fast as possible.
 
 ## Sign Up
 
