@@ -27,7 +27,7 @@ This is a repo for the app Epitech Eisenhower project. An iOS app based on Eisen
 > The user can create task and not assign himself on it (but can assign others)
 > The user can only see on his board, the tasks he's assigned on
 
-![Alt Text](https://i.imgur.com/9kgbxEe.gifv)
+![Alt Text](https://i.imgur.com/s5RQjQE.gif)
 
 ## Task overview, modification and removal
 
