@@ -5,6 +5,7 @@ This is a repo for the app Epitech Eisenhower project. An iOS app based on Eisen
 
 If you have any question you can send me an email anytime at vincent.augrain@epitech.eu.
 I'll answer as fast as possible.
+***Please make a pod install / pod update to make it work (We accidentaly left the pods and xcworkspace)***
 
 ## Sign Up
 
