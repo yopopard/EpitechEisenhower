@@ -22,6 +22,7 @@ This is a repo for the app Epitech Eisenhower project. An iOS app based on Eisen
 
 ![Alt Text](https://i.imgur.com/KzpkOiB.gif)
 <img src="https://i.imgur.com/KzpkOiB.gif" width="100" height="100" />
+<blockquote class="imgur-embed-pub" lang="en" data-id="KzpkOiB"><a href="//imgur.com/KzpkOiB"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## Task creation (user assignment/research ... etc)
 
