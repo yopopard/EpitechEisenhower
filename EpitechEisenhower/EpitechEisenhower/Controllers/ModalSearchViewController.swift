@@ -62,7 +62,7 @@ class ModalSearchViewController: UIViewController, UITableViewDelegate, UITableV
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        myProtocol?.updateAddedProfile(profile: fetchedData.allProfiles[indexPath.row])
+        myProtocol?.updateAddedProfile(profile: filtredProfiles[indexPath.row])
         dismiss(animated: true, completion: nil)
     }
     

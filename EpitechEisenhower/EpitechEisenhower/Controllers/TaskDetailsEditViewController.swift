@@ -37,8 +37,12 @@ class taskDetailsEdit: UIViewController, UICollectionViewDelegate, UICollectionV
     
     func updateAddedProfile(profile: profile) {
         var isAlreadyAssigned = false
-        for prof in ta.assignedProfiles {
-            isAlreadyAssigned = prof.uid == profile.uid
+        var cpt = 0
+        
+        while (cpt < ta.assignedProfiles.count && !isAlreadyAssigned)
+        {
+            isAlreadyAssigned = ta.assignedProfiles[cpt].uid == profile.uid
+            cpt = cpt + 1
         }
         if (!isAlreadyAssigned) {
             ta.assignedProfiles.append(profile)
@@ -214,8 +218,10 @@ class taskDetailsEdit: UIViewController, UICollectionViewDelegate, UICollectionV
             cell.imageView.image = ta.assignedProfiles[indexPath.row].pic
         }
         else {
-            cell.imageView.imageFromServerURL(urlString: ta.assignedProfiles[indexPath.row].picUrl) {
-                self.ta.assignedProfiles[indexPath.row].pic = cell.imageView.image
+            ta.assignedProfiles[indexPath.row].getPicUrl() {
+                cell.imageView.imageFromServerURL(urlString: self.ta.assignedProfiles[indexPath.row].picUrl) {
+                    self.ta.assignedProfiles[indexPath.row].pic = cell.imageView.image
+                }
             }
         }
         return cell

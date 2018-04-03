@@ -77,6 +77,17 @@ class profile {
             ] as [String:Any]
     }
     
+    func getPicUrl(completion: @escaping (()->())) {
+        let userRef = Database.database().reference().child(Values.firebaseObjson.USERS).child(self.uid)
+        userRef.observe(.value) { data in
+            if let mainDict = data.value as? [String:Any] {
+                guard let sub = mainDict[Values.firebaseObjson.PICTURE] as? String else {print("Error getting getPicUrl"); return}
+                self.picUrl = sub
+                completion()
+            }
+        }
+    }
+    
     func assignTask(task: task) {
         let taskRef = Database.database().reference().child(Values.firebaseObjson.USERS).child(self.uid).child(Values.firebaseObjson.TASKS).child(task.id)
             taskRef.setValue(task.ToSimpleFirObj())

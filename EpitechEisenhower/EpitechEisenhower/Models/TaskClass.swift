@@ -131,9 +131,6 @@ class task {
                     }
                     return retTask
                 }
-                else {
-                    print(" firObjToTask Error incoherent task named : \(notNil.title)")
-                }
             }
             else {
                 print("firObjToTask Error nil task")

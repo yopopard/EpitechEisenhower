@@ -166,9 +166,7 @@ class ProfileViewController: UIViewController {
                 }
                 else {
                     self.yourProfile.updateProfileInfo(username: self.profileName.text, description: self.profileDescription.text, ppUrl: URL(string: self.yourProfile.picUrl)!, email: self.profileEmail.text) { success, reset in
-                        self.alert(message: success ? Values.preFilled.upload.success : Values.preFilled.upload.baseError) {
                             self.handleMailChanged(success: success, reset: reset)
-                        }
                     }
                 }
             }
